@@ -1,7 +1,7 @@
 # Authentication Bypass 1
 
 This set of challenge will teach you about an authentication bypass vulnerability, where an attacker can bypass the typical
-flow of authentication of an application, *without* knowing the user's credentials.
+flow of authentication of an application, **without** knowing the user's credentials.
 
 In this challenge, we are given a login service. Let's take a look at the source.
 
