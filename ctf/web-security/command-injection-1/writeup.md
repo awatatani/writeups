@@ -1,5 +1,8 @@
 # Command Injection 1
 
+The next command injection exercises take a look at ways to explain the interaction between a web server and the Linux shell.
+This can be exploited when a developer uses the shell to perform an operation and use the command's output in another operation.
+
 We get a `/challenge/server` that runs a command using `subprocess.run()`. It crafts the process to run like so:
 
 ```python
