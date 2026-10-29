@@ -3,7 +3,7 @@
 In this challenge, we have `/challenge/server` that will server us a blog post web app. There is a `/challenge/victim`
 that will act as the victim.
 
-The first 2 challenges used a stored XSS attack, which used the web server's database to store malicious javascript or HTML.
+The first 2 challenges used a **stored XSS attack**, which used the web server's database to store malicious javascript or HTML.
 
 We will now look at a **Reflected XSS attack**, which usually means that an attacker will trick the victim into visiting
 a specially crafted URL with the right parameters. There is no database in this case to store our payload.

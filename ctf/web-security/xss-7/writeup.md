@@ -1,4 +1,4 @@
-# Cross Site Scripting 6
+# Cross Site Scripting 7
 
 In this challenge, we have `/challenge/server` that will server us a blog post web app. There is a `/challenge/victim`
 that will act as the victim.
